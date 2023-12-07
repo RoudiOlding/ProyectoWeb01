@@ -1,0 +1,146 @@
+/* index.module.css */
+
+.megaConte {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.subMegaConte {
+    width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 146px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    margin-top: 54px;
+    height: 100%;
+}
+
+.child2 {
+    margin-top: 37px;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    height: 100%;
+}
+
+.subMegaConte2 {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 20px;
+    padding-top: 20px; /* Ajusta el espaciado superior según tus necesidades */
+    margin-top: 70px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+
+.child3 {
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: auto; /* Coloca child3 en la parte inferior de child1 */
+}
+
+.megaConte3 {
+    display: flex;
+    flex-direction: column;
+}
+.subMegaConte3 {
+    background: #F3EDF7;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    color: #000;
+    height: 540px;
+}
+
+.subSubTitulo {
+    text-align: start;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.subSubTexto {
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.subMegaConte3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.subSubMegaConte3 {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 90px;
+    width: 279px;
+    height: 250px;
+    overflow: visible;
+}
+
+.imagenEstilo {
+    width: 100%;
+    height: 100%;
+}
+
+.customFileInput {
+    display: inline-block;
+    padding: 12px;
+    margin-top: 15px;
+    margin-left: 66px;
+    background-color: #6750A4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+
+.customFileInput input {
+    display: none;
+}
+
+.links{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.version {
+    justify-content: end;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-left: -3px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}

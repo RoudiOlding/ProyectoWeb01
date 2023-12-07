@@ -1,0 +1,63 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Textfield.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Textfield_Textfield_textField__ySpWU {
+    margin: 16px;
+    width: 320px;
+    border-radius: 4px 4px 0px 0px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Button.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Button_estilo__p5diC {
+    border-radius: 25px;
+    background: var(--m-3-sys-light-secondary-container, #E8DEF8);
+    color: var(--m-3-sys-light-on-secondary-container, #1D192B);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_titulo__k5evp {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 20px; /* 55.556% */
+  margin-top: 135px;
+  height: 51px;
+}
+
+.page_contenedorDatos__9n4Oe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_contra__jhe9i {
+  color: #6750A4;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+  margin-left: 171px;
+}
+
+.page_contenedorDatos2__VoBeU {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 44px;
+}
+
+.page_crear__ZWUvb {
+  color: #6750A4;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px; /* 166.667% */
+  margin-right: 20px;
+}

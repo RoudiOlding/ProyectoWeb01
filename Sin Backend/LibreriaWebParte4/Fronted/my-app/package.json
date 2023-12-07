@@ -1,0 +1,25 @@
+{
+  "name": "bibleo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@date-io/dayjs": "^2.17.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/lab": "^5.0.0-alpha.153",
+    "@mui/material": "^5.14.18",
+    "@mui/x-date-pickers": "^6.18.1",
+    "dayjs": "^1.11.10",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

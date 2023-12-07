@@ -1,0 +1,26 @@
+/* TopBar.module.css */
+.appBar {
+    position: fixed;
+    top: 0;
+    background-color: #F3EDF7;
+    color: #49454F;
+    z-index: 1000; /* Ajusta el valor según sea necesario para que esté por encima de otros elementos */
+    min-height: 64px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.leftIcons {
+    display: flex;
+    align-items: center;
+}
+
+.rightIcons {
+    display: flex;
+    align-items: center;
+}

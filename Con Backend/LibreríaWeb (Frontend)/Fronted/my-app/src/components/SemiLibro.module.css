@@ -1,0 +1,11 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.cardImage {
+    height: 92px;
+    margin-left: auto;
+    width: auto;
+}

@@ -1,0 +1,46 @@
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    line-height: 20px; /* 55.556% */
+    margin-top: 69px;
+    height: 30px;
+}
+
+.subTitulo {
+    color: #000;
+    text-align: center;
+    height: 40px;
+}
+
+.crear {
+    color: #6750A4;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px; /* 166.667% */
+    margin-right: 20px;
+    align-self: flex-start;
+    margin-left: 18px;
+}
+
+.subFormulario {
+    color: #6750A4;
+    font-size: 19px;
+    line-height: 20px; /* 125% */
+    align-self: flex-start;
+    margin-left: 13px;
+}
+
+.megaSeccion{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.secion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}

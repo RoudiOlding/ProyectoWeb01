@@ -1,0 +1,128 @@
+/* index.module.css */
+
+.megaConte {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.subMegaConte {
+    width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 146px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    margin-top: 54px;
+    height: 100%;
+}
+
+.child2 {
+    margin-top: 37px;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    height: 100%;
+}
+
+.subMegaConte2 {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-left: 20px;
+    padding-top: 20px; /* Ajusta el espaciado superior según tus necesidades */
+    margin-top: 70px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+
+.child3 {
+    text-align: center;
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: auto; /* Coloca child3 en la parte inferior de child1 */
+}
+
+.megaConte3 {
+    display: flex;
+    flex-direction: column;
+}
+.subMegaConte3 {
+    background: #F3EDF7;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.subSubTitulo {
+    text-align: start;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.subSubTexto {
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+.miniLibro{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.verTodo{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.links{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.version {
+    justify-content: end;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-left: -3px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+}

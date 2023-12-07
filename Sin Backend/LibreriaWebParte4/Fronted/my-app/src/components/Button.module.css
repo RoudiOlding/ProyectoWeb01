@@ -1,0 +1,9 @@
+.estilo {
+    border-radius: 25px;
+    background: var(--m-3-sys-light-secondary-container, #E8DEF8);
+    color: var(--m-3-sys-light-on-secondary-container, #1D192B);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}

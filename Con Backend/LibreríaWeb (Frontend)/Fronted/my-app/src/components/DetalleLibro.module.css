@@ -1,0 +1,117 @@
+.detallesLibro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background: var(--m-3-sys-light-surface, #FEF7FF);
+}
+
+.subDetalle{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.subSubDetalle{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.subDetalle2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 45px;
+}
+
+.subSubDetalle2{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 80px;
+}
+
+.subDetalle3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.subSubDetalle3{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.subSubMegaConte2{
+    padding-right: 40px;
+}
+
+.Titulo{
+    margin-top: 5px;
+    width: 100%;
+    color:#1D1B20;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 3px;
+}
+
+.autor{
+    color: var(--m-3-sys-light-on-surface-variant, #49454F);
+    /* M3/body/medium */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -4px;
+}
+
+.megaTitulo{
+    width: 600%;
+}
+
+.foto{
+    margin-top: 14px;
+    width: 300px;
+    height: 160px;
+}
+
+.parrafo{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.editorial{
+    color: #686868;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 153.846% */
+}
+
+.nombreEditorial{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.topicos{
+    color: #5c5c5c;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 153.846% */
+}
