@@ -12,6 +12,7 @@ tmp
 
 # Next.js
 .next/
+*/.next/
 
 # dotenv environment variables
 .env*
