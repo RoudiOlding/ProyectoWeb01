@@ -1,0 +1,18 @@
+# MacOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+tmp
+
+# Next.js
+.next/
+
+# dotenv environment variables
+.env*
+
